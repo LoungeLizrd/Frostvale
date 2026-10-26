@@ -1,0 +1,26 @@
+{
+  "appId": "com.frostvale.game",
+  "appName": "Frostvale",
+  "webDir": "www",
+  "backgroundColor": "#10171f",
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 1500,
+      "backgroundColor": "#10171f",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK"
+    }
+  }
+}

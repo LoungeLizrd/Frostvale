@@ -1,0 +1,29 @@
+{
+  "name": "frostvale",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frostvale - a cozy snow plow life sim",
+  "scripts": {
+    "test": "node tests/smoke.test.js",
+    "assets": "capacitor-assets generate --iconBackgroundColor \"#1b2a44\" --iconBackgroundColorDark \"#1b2a44\" --splashBackgroundColor \"#10171f\" --splashBackgroundColorDark \"#10171f\"",
+    "sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
