@@ -14,7 +14,7 @@
 
 ## Play
 
-**▶ [Play in your browser](https://loungelizrd.github.io/frostvale/)** (works best on a phone, in portrait or landscape)
+**▶ [Play in your browser](https://loungelizrd.github.io/Frostvale/)** (works best on a phone, in portrait or landscape)
 
 The whole game is a single file, [`www/index.html`](www/index.html), with no build step and no dependencies. You can also open it straight from your computer.
 
